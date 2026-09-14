@@ -35,6 +35,7 @@ h1 em { color: #347b53; font-style: normal; }
 .primary { border-color: #1f6f45; background: #2b8652; color: #fff; }
 .primary span { font-size: 1.25rem; line-height: 0.7; }
 .secondary { background: #fff; color: var(--navy); }
+.support { border-color: #9bcdb0; background: #eef9f1; color: var(--green-ink); }
 .reassurance { margin: 1rem 0 0; color: #57687d; font-size: 0.9rem; }
 .hero-art { overflow: hidden; border: 1px solid var(--line); border-radius: 1.25rem; background: #fff; box-shadow: 0 1.2rem 3.5rem rgb(22 51 82 / 13%); }
 .hero-art img { display: block; width: 100%; height: auto; }
