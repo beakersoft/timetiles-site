@@ -47,6 +47,16 @@ h1 em { color: #347b53; font-style: normal; }
 .benefits h2 { margin: 0.8rem 0 0.5rem; color: var(--navy); font-size: 1.35rem; }
 .benefits p { margin: 0; color: #51637a; line-height: 1.55; }
 
+.guides { padding: clamp(4.5rem, 9vw, 7rem) 0 0; }
+.guides > h2 { max-width: 20ch; margin: 0 0 1.75rem; color: var(--navy); font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.05; letter-spacing: -0.04em; }
+.guide-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.guide-card { display: block; min-height: 15rem; padding: 1.7rem; border: 1px solid var(--line); border-radius: 1rem; background: #fff; color: var(--ink); text-decoration: none; transition: transform 160ms ease, box-shadow 160ms ease; }
+.guide-card:hover { transform: translateY(-0.2rem); box-shadow: 0 0.8rem 2rem rgb(22 51 82 / 10%); }
+.guide-card > span { font-size: 1.55rem; }
+.guide-card h3 { margin: 0.75rem 0 0.55rem; color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 1.45rem; line-height: 1.15; }
+.guide-card p { max-width: 32rem; margin: 0; color: #51637a; line-height: 1.55; }
+.guide-card strong { display: block; margin-top: 1.35rem; color: var(--green-ink); }
+
 .closing { padding: clamp(5rem, 12vw, 9rem) 0; text-align: center; }
 .closing .eyebrow { margin-bottom: 1rem; }
 .closing h2 { margin: 0 auto 1.8rem; color: var(--navy); font-size: clamp(2.1rem, 4.5vw, 4rem); line-height: 1.05; letter-spacing: -0.04em; }
@@ -62,6 +72,21 @@ footer .fine-print { margin-left: auto; }
 .policy p { font-size: 1.05rem; line-height: 1.7; }
 .updated { margin-top: 0.7rem; color: #65768a; font-size: 0.92rem !important; }
 
+.guide { max-width: 48rem; padding: 4.5rem 0 7rem; }
+.guide h1 { max-width: 13ch; font-size: clamp(3rem, 7vw, 5rem); }
+.guide h2 { margin: 2.7rem 0 0.7rem; color: var(--navy); font-size: clamp(1.75rem, 3vw, 2.35rem); line-height: 1.1; }
+.guide h3 { margin: 2rem 0 0.45rem; color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; }
+.guide p, .guide li { font-size: 1.06rem; line-height: 1.7; }
+.guide ol, .guide ul { padding-left: 1.4rem; }
+.guide li + li { margin-top: 0.6rem; }
+.guide .lead { max-width: 42rem; margin-top: 1.4rem; font-size: 1.25rem; }
+.guide .callout { margin-top: 2rem; padding: 1.4rem; border: 1px solid #a6cdb2; border-radius: 0.9rem; background: #eff9f1; }
+.guide .callout p { margin: 0; }
+.guide .callout .button { margin-top: 1rem; }
+.guide details { margin-top: 0.8rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: 0.7rem; background: #fff; }
+.guide summary { cursor: pointer; color: var(--navy); font-weight: 800; }
+.guide details p { margin-bottom: 0; }
+
 @media (max-width: 800px) {
   .site-header { min-height: 4.6rem; }
   nav { gap: 0.75rem; font-size: 0.88rem; }
@@ -72,6 +97,7 @@ footer .fine-print { margin-left: auto; }
   .benefits { grid-template-columns: 1fr; }
   .benefits article { border-right: 0; border-bottom: 1px solid var(--line); }
   .benefits article:last-child { border-bottom: 0; }
+  .guide-grid { grid-template-columns: 1fr; }
   footer .fine-print { width: 100%; margin-left: 0; }
 }
 

@@ -1,0 +1,17 @@
+# TimeTiles
+
+> TimeTiles is a free Chrome extension for parents who use Google Family Link. It turns Family Link device-time settings into a clear, child-friendly weekly timetable that can be printed.
+
+## Official pages
+
+- [TimeTiles home](https://timetilesfamily.com/): What TimeTiles does, how it handles schedule data locally, and how to install it.
+- [Can I print a Google Family Link schedule?](https://timetilesfamily.com/print-family-link-schedule/): Instructions for creating a printable schedule with TimeTiles.
+- [How to explain screen-time rules to children](https://timetilesfamily.com/explain-screen-time-rules/): Practical guidance for explaining routines and limits.
+- [Privacy policy](https://timetilesfamily.com/privacy/): How TimeTiles handles Family Link schedule data, feedback and donations.
+
+## Key facts
+
+- TimeTiles is independent and is not affiliated with or endorsed by Google.
+- Parents set and change the actual device-time rules in Google Family Link.
+- TimeTiles creates a friendly printable view of the schedule it reads from a supported Family Link page.
+- Family Link schedule data stays in the user's Chrome profile and is not sent to TimeTiles.
